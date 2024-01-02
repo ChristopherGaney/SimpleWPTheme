@@ -1,0 +1,10 @@
+@import "../uikit/src/scss/variables.scss";
+@import "../uikit/src/scss/mixins.scss";
+
+// 3. Your custom mixin overwrites.
+@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "../uikit/src/scss/uikit.scss";
+
+@import "theme/header";

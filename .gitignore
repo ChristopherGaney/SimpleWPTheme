@@ -1,0 +1,13 @@
+*.DS_Store
+*.sass-cache*
+*.log
+.env
+
+!.github
+
+bin
+vendor
+
+node_modules
+dist
+src/uikit
